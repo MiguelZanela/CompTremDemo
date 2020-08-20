@@ -1,0 +1,24 @@
+== Para o correto funcionamento do programa, 
+   não se deve cadastrar um vagão, locomotiva ou composicao com o mesmo id
+--------------------------------------------------------------------------------------------------------------
+== Para cadastrar novas locomotivas usar o padrao ja empregado 
+   com o ID seguido do peso maximo suportado e da capacidade maxima de vagoes para tracionar
+--------------------------------------------------------------------------------------------------------------
+== Para cadastrar novos vagao usar o padrao ja empregado 
+   com o ID seguido do peso maximo suportado
+--------------------------------------------------------------------------------------------------------------
+== A melhor maneira de se criar uma composição é dentro do editor, 
+   evite fazer novas composiçoes usando o Composicao.txt diretamente.
+--------------------------------------------------------------------------------------------------------------
+== Para cada sistema operacional existe uma configuracao de caminho do arquivo .txt, 
+   verificar na classe Patio as observacoes de funcionamento da leitura e gravacao em documento de texto
+--------------------------------------------------------------------------------------------------------------
+== Apos todos os informacoes anteriores estarem "ok" 
+   para executar o programa, primeiro abra o terminar e use o comando javac *.java
+   em seguida execute o comando java App
+   o programa deve iniciar
+--------------------------------------------------------------------------------------------------------------
+== Lembrando que alteraçoes somente serao salvas se o programa for encerrado adequadamente
+   usando a opcao 5 do menu principal
+   caso o programa seja encerrado acidentalmente as alteracoes serao perdidas
+--------------------------------------------------------------------------------------------------------------
